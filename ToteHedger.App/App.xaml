@@ -1,0 +1,9 @@
+﻿<Application x:Class="ToteHedger.App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ToteHedger.App"
+             xmlns:conv="clr-namespace:ToteHedger.App.Converters">
+    <Application.Resources>
+        <conv:InverseBoolConverter x:Key="InverseBoolConverter"/>
+    </Application.Resources>
+</Application>

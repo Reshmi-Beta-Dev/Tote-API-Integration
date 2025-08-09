@@ -1,0 +1,70 @@
+# ---- OS ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ---- Visual Studio / Rider ----
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.DotSettings.user
+
+# ---- Build outputs ----
+bin/
+obj/
+out/
+TestResults/
+artifacts/
+
+# ---- NuGet ----
+packages/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Coverage ----
+coverage/
+*.coverage
+*.coveragexml
+
+# ---- Resharper / Cache ----
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# ---- MSBuild ----
+*.cache
+*.ide/
+
+# ---- Publish ----
+pub/
+publish/
+
+# ---- Temp ----
+~$*
+*.tmp
+*.temp
+
+# ---- WPF / Generated ----
+*.g.cs
+*.g.i.cs
+*_wpftmp.csproj
+
+# ---- Local settings ----
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Keep main appsettings.json tracked (contains placeholders only)
+!ToteHedger.App/appsettings.json
+
+
